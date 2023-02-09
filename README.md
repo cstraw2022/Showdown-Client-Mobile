@@ -1,6 +1,6 @@
 ﻿# Description
 
-[Play.pokemonshowdown.com](https://play.pokemonshowdown.com/) is a great way to enjoy battling both with friends and competitively on your computer. While you can easily access the site on your mobile device, the navigation experience is _less than ideal_. I thought building this app would be a fun little project that improves the battling experience on the go, and also would help me brush up my knowledge of react. 
+[Play.pokemonshowdown.com](https://play.pokemonshowdown.com/) is a great way to enjoy Pokemon battles both with friends and competitively on your computer. While you can easily access the site on your mobile device, the navigation experience is _less than ideal_. I thought building this app would be a fun little project that improves the battling experience on the go, and also would help me brush up my knowledge of react. 
 
 # Files
 
