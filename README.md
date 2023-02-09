@@ -1,8 +1,9 @@
-﻿# Description
+﻿# Pokemon Showdown Mobile Client (Unofficial)
+ ## Description
 
 [Pokemon Showdown](https://play.pokemonshowdown.com/) is a great way to enjoy Pokemon battles both with friends and competitively on your computer. While you can easily access the site on your mobile device, the navigation experience is _less than ideal_. This gave me the idea of developing a mobile client from the ground up in React Native. I felt that building this app would be a fun little project that improves the battling experience on the go, and also would help me brush up my knowledge of react. 
 
-# Files
+## Files
 
 WebSocketProvider.tsx
 * Creates and maintains the websocket connection between the server and the client. Various parts of the app pull from the exported message list.
@@ -23,7 +24,7 @@ Navigation/
 Screens/
 * Contains the various screens of the app.
 
-# Login Protocol
+## Login Protocol
 
 Showdown has a two factor authentication that requires an assertion key being requested from the server’s action.php. The implementation I used (All contained within LoginScreen.tsx) goes as follows:
 
@@ -41,7 +42,7 @@ Showdown has a two factor authentication that requires an assertion key being re
 
 A more in-depth explanation of the server protocol can be found [here](https://github.com/smogon/pokemon-showdown/blob/master/PROTOCOL.md).
 
-# Checklist
+## Checklist
 
 This project is far from complete, so here is a  [Figma Sketch I drafted up](https://www.figma.com/proto/H0tcs37vxU51gGzh3uNEZs/Untitled?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2) in the meantime :). It’s rough around the edges but loosely gives an idea as to what the project will look like closer to the finish!
 
