@@ -1,6 +1,6 @@
 ﻿# Description
 
-[Play.pokemonshowdown.com](https://play.pokemonshowdown.com/) is a great way to enjoy Pokemon battles both with friends and competitively on your computer. While you can easily access the site on your mobile device, the navigation experience is _less than ideal_. This gave me the idea of developing a mobile client from the ground up in React Native. I felt that building this app would be a fun little project that improves the battling experience on the go, and also would help me brush up my knowledge of react. 
+[Pokemon Showdown](https://play.pokemonshowdown.com/) is a great way to enjoy Pokemon battles both with friends and competitively on your computer. While you can easily access the site on your mobile device, the navigation experience is _less than ideal_. This gave me the idea of developing a mobile client from the ground up in React Native. I felt that building this app would be a fun little project that improves the battling experience on the go, and also would help me brush up my knowledge of react. 
 
 # Files
 
@@ -25,7 +25,7 @@ Screens/
 
 # Login Protocol
 
-play.pokemonshowdown.com has a two factor authentication that requires an assertion key being requested from the server’s action.php. The implementation I used (All contained within LoginScreen.tsx) goes as follows:
+Showdown has a two factor authentication that requires an assertion key being requested from the server’s action.php. The implementation I used (All contained within LoginScreen.tsx) goes as follows:
 
 
 
