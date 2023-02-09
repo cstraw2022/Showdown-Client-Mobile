@@ -33,9 +33,9 @@ play.pokemonshowdown.com has a two factor authentication that requires an assert
 
 2. After the user enters their username (and optionally password) and taps login, the event is handled in one of two ways:
 
-    1. If the user did not enter a password, an `HTTP POST` request is sent to action.php with the act ‘getassertion’, the username and the challstr. (only works on unregistered usernames)
+    1. If the user did not enter a password, an HTTP `POST` request is sent to action.php with the act `'getassertion'`, the username and the challstr. (only works on unregistered usernames)
 
-    2. If the user entered a password, an `HTTP POST` request is sent to action.php with the act ‘login’, and the username, password and challstr
+    2. If the user entered a password, an HTTP `POST` request is sent to action.php with the act `‘login’`, and the username, password and challstr
     
 3. If the account information is correct, the server’s action.php returns an assertion key. LoginScreen waits for this assertion, and when received, sends a websocket message `/trn USERNAME,0,ASSERTION` which should successfully authenticate the user.
 
